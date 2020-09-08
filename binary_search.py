@@ -30,7 +30,7 @@ target = int(input('Enter target number: '))
 low = 0
 high = len(arr)-1
 
- 
+# call function and assign to variable
 res = binarySearch(arr, low, high, target) 
 
 print(target,'found at index:% d' % res) if res != -1 else print('Target not found')
